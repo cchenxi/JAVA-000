@@ -1,7 +1,5 @@
 # homework
 
-## 周四作业
-
 > 按今天的课程要求，实现一个网关，基础代码可以 fork:https://github.com/kimmking/JavaCourseCodes 02nio/nio02 文件夹下。实现以后，代码提交到 Github。 
 > 
 > 1)周四作业:整合你上次作业的httpclient/okhttp; 
@@ -14,6 +12,8 @@
 
 1. [commit](https://github.com/cchenxi/JavaCourseCodes/commit/e51904f858ecc6142081eda1ebb9b9f3325cc455)
 
-2. TODO
+2. [commit](https://github.com/cchenxi/JavaCourseCodes/commit/d5e8ab1a690527627238114e343488f0d3a600cf)
 
-## 周六作业
+3. [commit](https://github.com/cchenxi/JavaCourseCodes/commit/83cb8880ed80bfb3ef8eab0a2992548a1d3f457c)
+
+4. TODO
