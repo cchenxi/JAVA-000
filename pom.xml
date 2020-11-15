@@ -13,6 +13,7 @@
         <module>Week_02</module>
         <module>Week_03</module>
         <module>Week_04</module>
+        <module>Week_05</module>
     </modules>
 
     <properties>
@@ -20,6 +21,7 @@
         <fastjson.version>1.2.68</fastjson.version>
         <commons-lang.version>3.10</commons-lang.version>
         <commons-io.version>2.8.0</commons-io.version>
+        <spring.version>5.2.11.RELEASE</spring.version>
     </properties>
 
     <dependencyManagement>
@@ -46,6 +48,12 @@
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>${commons-io.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
