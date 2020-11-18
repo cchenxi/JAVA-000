@@ -1,0 +1,10 @@
+{
+  "properties": [
+    {
+      "name": "spring.simple.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether enable simple or not.",
+      "defaultValue": false
+    }
+  ]
+}
