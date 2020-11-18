@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--  显式地配置Bean  -->
+    <bean id="book" class="io.github.cchenxi.w5.h2.Book">
+        <property name="id" value="1" />
+        <property name="name" value="《Thinging in Java》" />
+    </bean>
+
+    <!--  静态工厂方法  -->
+    <bean id="book-by-static-method" class="io.github.cchenxi.w5.h2.Book" factory-method="createBook" />
+
+    <!--  实例方法  -->
+    <bean id="book-by-instance-method" factory-bean="bookFactory" factory-method="createBook" />
+    <bean id="book-by-instance-method-n" factory-bean="bookFactory" factory-method="createBook" />
+    <bean id="bookFactory" class="io.github.cchenxi.w5.h2.factory.DefaultBookFactory" />
+
+    <context:component-scan base-package="io.github.cchenxi.w5.h2.bean" />
+</beans>
