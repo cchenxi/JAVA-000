@@ -17,3 +17,5 @@
 [提交记录](https://github.com/cchenxi/JAVA-000/commit/43a012041ccad545d0684d1c4a7c9935a41cafd8)
 
 * JDBC 接口和数据库连接池，掌握它们的设计和用法
+
+[作业目录](https://github.com/cchenxi/JAVA-000/tree/main/Week_05/db-demo)
