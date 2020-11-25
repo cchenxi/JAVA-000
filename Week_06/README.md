@@ -1,1 +1,1 @@
-学习笔记
+[电商相关表设计](https://github.com/cchenxi/JAVA-000/blob/main/Week_06/src/main/resources/homework.sql)
