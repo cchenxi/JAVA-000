@@ -15,5 +15,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Inherited
 public @interface DataSource {
-    DataSourceType value() default DataSourceType.NORMAL;
+    DataSourceType value() default DataSourceType.MASTER;
 }

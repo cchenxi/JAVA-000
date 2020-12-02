@@ -55,7 +55,7 @@ public class CustomerService2 implements CustomerService {
     }
 
     @Override
-    @DataSource(value = DataSourceType.READONLY)
+    @DataSource(value = DataSourceType.SLAVE)
     public void getAllCustomers() {
         Connection connection = DataSourceUtils.getConnection(dynamicJdbcTemplate.getDataSource());
         try {

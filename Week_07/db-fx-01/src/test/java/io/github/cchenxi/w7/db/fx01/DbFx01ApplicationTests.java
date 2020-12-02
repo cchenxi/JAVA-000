@@ -30,4 +30,18 @@ public class DbFx01ApplicationTests {
         cs2.addCustomer();
         cs2.getAllCustomers();
     }
+
+    @Autowired
+    @Qualifier("cs3")
+    private CustomerService cs3;
+
+    @Test
+    public void test3() throws Exception {
+        cs3.getAllCustomers();
+        cs3.getAllCustomers();
+        cs3.getAllCustomers();
+        cs3.getAllCustomers();
+        cs3.getAllCustomers();
+        cs3.getAllCustomers();
+    }
 }

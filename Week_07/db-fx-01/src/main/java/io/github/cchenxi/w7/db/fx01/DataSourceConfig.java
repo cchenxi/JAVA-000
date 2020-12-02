@@ -1,6 +1,5 @@
 package io.github.cchenxi.w7.db.fx01;
 
-import io.github.cchenxi.w7.db.fx01.core.DataSourceType;
 import io.github.cchenxi.w7.db.fx01.router.DataSourceRouter;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -61,9 +60,10 @@ public class DataSourceConfig {
                                         @Qualifier("slave01DataSource") DataSource slave01DataSource,
                                         @Qualifier("slave02DataSource") DataSource slave02DataSource) {
         DataSourceRouter dataSourceRouter = new DataSourceRouter();
-        Map<Object, Object> dataSourceMap = new HashMap<>(2);
-        dataSourceMap.put(DataSourceType.NORMAL.getValue(), masterDataSource);
-        dataSourceMap.put(DataSourceType.READONLY.getValue(), slave01DataSource);
+        Map<Object, Object> dataSourceMap = new HashMap<>(3);
+        dataSourceMap.put("master", masterDataSource);
+        dataSourceMap.put("slave1", slave01DataSource);
+        dataSourceMap.put("slave2", slave02DataSource);
 
         dataSourceRouter.setDefaultTargetDataSource(masterDataSource);
         dataSourceRouter.setTargetDataSources(dataSourceMap);
