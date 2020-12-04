@@ -12,3 +12,5 @@
 ## 1. [配置复制](replication.md)
 
 ## 2. [读写分离-数据库框架1.0](https://github.com/cchenxi/JAVA-000/tree/main/Week_07/db-fx-01)
+
+## 3. [读写分离-数据库框架2.0](https://github.com/cchenxi/JAVA-000/tree/main/Week_07/db-fx-02)
