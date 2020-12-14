@@ -8,4 +8,4 @@
 
 这里选择使用 hmily
 
-[作业仓库](https://github.com/cchenxi/JAVA-000/tree/main/Week_08/distributed-tx-demo)
+[作业仓库](https://github.com/cchenxi/hmily-demo)
