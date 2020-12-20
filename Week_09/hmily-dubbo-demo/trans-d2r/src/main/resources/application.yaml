@@ -1,0 +1,31 @@
+server:
+  port: 8802
+  address: 0.0.0.0
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/d_account_d2r?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+
+
+#logging:
+#  level:
+#    root: error
+#    org.springframework.web: info
+#    org.apache.ibatis: debug
+#    io.github.cchenxi: debug
+#    io.netty: info
+#  path: "./logs"
+
+dubbo:
+  application:
+    name: trans-d2r
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    port: 2${server.port}
+    name: dubbo
