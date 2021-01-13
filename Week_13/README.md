@@ -6,6 +6,11 @@
 
 [code](https://github.com/cchenxi/JAVA-000/tree/main/Week_13/spring-kafka-demo)
 
+测试
+
+1. 使用 单元测试`io.github.cchenxi.w13.SpringKafkaDemoApplicationTests.testProducer` 测试消息生产
+2. 启动 `io.github.cchenxi.w13.SpringKafkaDemoApplication` 测试消费消息
+
 ## 搭建3节点的kafka集群
 
 1. 准备配置文件

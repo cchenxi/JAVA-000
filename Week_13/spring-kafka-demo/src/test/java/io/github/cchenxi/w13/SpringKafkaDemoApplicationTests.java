@@ -14,9 +14,6 @@ public class SpringKafkaDemoApplicationTests {
     @Autowired
     private MessageProducer messageProducer;
 
-    @Autowired
-    private MessageConsumer messageConsumer;
-
     @Value("${kafka.topic}")
     private String topic;
 
