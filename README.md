@@ -1,6 +1,9 @@
 # 极客大学「Java进阶训练营-第0期」作业提交仓库
 
+作业除在本仓库完成的之外，还有部分作业在
 
+- [java-training-homework](https://github.com/cchenxi/java-training-homework)
+- [JavaCourseCodes](https://github.com/cchenxi/JavaCourseCodes)
 
 
 ## 仓库目录结构说明
